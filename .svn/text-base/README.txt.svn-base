@@ -1,0 +1,30 @@
+
+                         +--------------------------+
+                         |      JavaDoc RDFizer     |
+                         +--------------------------+
+
+  What is this?
+  ------------
+
+This javadoc doclet that generates an RDF representation of javadocs.
+
+
+  How do I use it?
+  ---------------
+
+First, you need ant installed. [Get it from http://ant.apache.org if 
+you don't have it installed.]
+
+Second, run "ant" where the build.xml file is located (alongside this very 
+document). This will generate a jar file called "rdf_doclet.jar" and then
+use it as a doclet to generate an RDF javadoc of the doclet source code in
+the './javadoc' folder.
+
+Look into the build.xml file on how to use the doclet on your own ant
+build scripts.
+
+
+
+                                                        Stefano Mazzocchi
+                                                      <stefanom at mit.edu>
+

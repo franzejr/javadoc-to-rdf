@@ -1,0 +1,37 @@
+<project name="javadoc2rdf" default="javadoc" basedir=".">
+
+    <target name="compile" description="Compiles the source code">
+        <mkdir dir="build"/>
+        <javac srcdir="src"
+            destdir="build"
+            debug="on"
+            optimize="on"
+            deprecation="on"
+            target="1.2"
+            source="1.2">
+            <include name="**/*.java"/>
+        </javac>
+    </target>
+
+    <target name="package" depends="compile" description="Generates the jar">
+        <jar jarfile="rdf_doclet.jar" basedir="build"/>
+    </target>
+
+    <target name="javadoc" depends="package" description="Generates the RDF javadocs">
+        <javadoc>
+            <doclet name="edu.mit.simile.rdfizer.javadoc.RDFizerDoclet" path="rdf_doclet.jar">
+             <param name="-out" value="javadoc.rdf"/>
+             <param name="-codebase" value="JavaDoc RDFizer"/>
+            </doclet>            <fileset dir="src" defaultexcludes="yes">
+              <include name="**"/>
+            </fileset>
+        </javadoc>
+    </target>    
+
+    <target name="clean" description="Cleans up the project">
+        <delete dir="build"/>
+        <delete dir="rdf_doclet.jar"/>
+    </target>
+
+</project>
+

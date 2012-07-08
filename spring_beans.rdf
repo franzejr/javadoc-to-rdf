@@ -1,0 +1,449 @@
+@prefix rdf:		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:		<http://purl.org/dc/elements/1.1/> .
+@prefix java:		<http://simile.mit.edu/java#> .
+@prefix obj:		<urn:java:object#> .
+obj:org_springframework_beans_BeanInstantiationException
+  rdfs:label "BeanInstantiationException"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Exception"
+; java:word "Instantiation"
+; java:word "Bean"
+; rdf:type java:Class
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:abstract "false"
+; java:externalizable "false"
+; java:serializable "false"
+; java:extends obj:java_lang_Object
+; java:extends-indirectly obj:java_lang_Object
+; java:assignable-to obj:java_lang_Object
+; java:constructor obj:org_springframework_beans_BeanInstantiationException_java_lang_Class_java_lang_String_
+; java:constructor obj:org_springframework_beans_BeanInstantiationException_java_lang_Class_java_lang_String_java_lang_Throwable_
+; java:method obj:org_springframework_beans_BeanInstantiationException_getBeanClass__
+.
+obj:org_springframework_beans_BeanInstantiationException_java_lang_Class_java_lang_String_java_lang_Throwable_
+  rdfs:label "BeanInstantiationException"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Exception"
+; java:word "Instantiation"
+; java:word "Bean"
+; rdf:type java:Constructor
+; java:containing-class obj:org_springframework_beans_BeanInstantiationException
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "beanClass"
+; java:takes obj:java_lang_Class
+; java:has-param-name "msg"
+; java:takes obj:java_lang_String
+; java:has-param-name "cause"
+; java:takes obj:java_lang_Throwable
+.
+obj:org_springframework_beans_BeanInstantiationException_java_lang_Class_java_lang_String_
+  rdfs:label "BeanInstantiationException"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Exception"
+; java:word "Instantiation"
+; java:word "Bean"
+; rdf:type java:Constructor
+; java:containing-class obj:org_springframework_beans_BeanInstantiationException
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "beanClass"
+; java:takes obj:java_lang_Class
+; java:has-param-name "msg"
+; java:takes obj:java_lang_String
+.
+obj:org_springframework_beans_BeanInstantiationException_getBeanClass__
+  rdfs:label "getBeanClass"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Class"
+; java:word "Bean"
+; java:word "get"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanInstantiationException
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:expression-type obj:java_lang_Class
+.
+obj:org_springframework_beans_BeanMetadataAttribute
+  rdfs:label "BeanMetadataAttribute"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Attribute"
+; java:word "Metadata"
+; java:word "Bean"
+; rdf:type java:Class
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:abstract "false"
+; java:externalizable "false"
+; java:serializable "false"
+; java:extends obj:java_lang_Object
+; java:extends-indirectly obj:java_lang_Object
+; java:assignable-to obj:java_lang_Object
+; java:constructor obj:org_springframework_beans_BeanMetadataAttribute_java_lang_String_java_lang_Object_
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_getName__
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_getValue__
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_setSource_java_lang_Object_
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_getSource__
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_equals_java_lang_Object_
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_hashCode__
+; java:method obj:org_springframework_beans_BeanMetadataAttribute_toString__
+.
+obj:org_springframework_beans_BeanMetadataAttribute_getSource__
+  rdfs:label "getSource"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Source"
+; java:word "get"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:expression-type obj:java_lang_Object
+.
+obj:org_springframework_beans_BeanMetadataAttribute_java_lang_String_java_lang_Object_
+  rdfs:label "BeanMetadataAttribute"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Attribute"
+; java:word "Metadata"
+; java:word "Bean"
+; rdf:type java:Constructor
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "name"
+; java:takes obj:java_lang_String
+; java:has-param-name "value"
+; java:takes obj:java_lang_Object
+.
+obj:org_springframework_beans_BeanMetadataAttribute_getName__
+  rdfs:label "getName"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Name"
+; java:word "get"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:expression-type obj:java_lang_String
+.
+obj:org_springframework_beans_BeanMetadataAttribute_setSource_java_lang_Object_
+  rdfs:label "setSource"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Source"
+; java:word "set"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "source"
+; java:takes obj:java_lang_Object
+; java:abstract "false"
+; java:expression-type "void"
+.
+obj:org_springframework_beans_BeanMetadataAttribute_toString__
+  rdfs:label "toString"
+; java:codebase "JavaDoc RDFizer"
+; java:word "String"
+; java:word "to"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:overrides-class obj:java_lang_Object
+; java:expression-type obj:java_lang_String
+.
+obj:org_springframework_beans_BeanMetadataAttribute_hashCode__
+  rdfs:label "hashCode"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Code"
+; java:word "hash"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:overrides-class obj:java_lang_Object
+; java:expression-type "int"
+.
+obj:org_springframework_beans_BeanMetadataAttribute_equals_java_lang_Object_
+  rdfs:label "equals"
+; java:codebase "JavaDoc RDFizer"
+; java:word "equals"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "other"
+; java:takes obj:java_lang_Object
+; java:abstract "false"
+; java:overrides-class obj:java_lang_Object
+; java:expression-type "boolean"
+.
+obj:org_springframework_beans_BeanMetadataAttribute_getValue__
+  rdfs:label "getValue"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Value"
+; java:word "get"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_BeanMetadataAttribute
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:expression-type obj:java_lang_Object
+.
+obj:org_springframework_beans_AbstractPropertyAccessor
+  rdfs:label "AbstractPropertyAccessor"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Accessor"
+; java:word "Property"
+; java:word "Abstract"
+; rdf:type java:Class
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:abstract "true"
+; java:externalizable "false"
+; java:serializable "false"
+; java:extends obj:java_lang_Object
+; java:extends-indirectly obj:java_lang_Object
+; java:assignable-to obj:java_lang_Object
+; java:constructor obj:org_springframework_beans_AbstractPropertyAccessor__
+; java:method obj:org_springframework_beans_AbstractPropertyAccessor_setExtractOldValueForEditor_boolean_
+; java:method obj:org_springframework_beans_AbstractPropertyAccessor_isExtractOldValueForEditor__
+; java:method obj:org_springframework_beans_AbstractPropertyAccessor_getPropertyValue_java_lang_String_
+; java:method obj:org_springframework_beans_AbstractPropertyAccessor_setPropertyValue_java_lang_String_java_lang_Object_
+.
+obj:org_springframework_beans_AbstractPropertyAccessor_setPropertyValue_java_lang_String_java_lang_Object_
+  rdfs:label "setPropertyValue"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Value"
+; java:word "Property"
+; java:word "set"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_AbstractPropertyAccessor
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "propertyName"
+; java:takes obj:java_lang_String
+; java:has-param-name "value"
+; java:takes obj:java_lang_Object
+; java:abstract "true"
+; java:expression-type "void"
+.
+obj:org_springframework_beans_AbstractPropertyAccessor_getPropertyValue_java_lang_String_
+  rdfs:label "getPropertyValue"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Value"
+; java:word "Property"
+; java:word "get"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_AbstractPropertyAccessor
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "propertyName"
+; java:takes obj:java_lang_String
+; java:abstract "true"
+; java:expression-type obj:java_lang_Object
+.
+obj:org_springframework_beans_AbstractPropertyAccessor__
+  rdfs:label "AbstractPropertyAccessor"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Accessor"
+; java:word "Property"
+; java:word "Abstract"
+; rdf:type java:Constructor
+; java:containing-class obj:org_springframework_beans_AbstractPropertyAccessor
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+.
+obj:org_springframework_beans_AbstractPropertyAccessor_setExtractOldValueForEditor_boolean_
+  rdfs:label "setExtractOldValueForEditor"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Editor"
+; java:word "For"
+; java:word "Value"
+; java:word "Old"
+; java:word "Extract"
+; java:word "set"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_AbstractPropertyAccessor
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:has-param-name "extractOldValueForEditor"
+; java:takes "boolean"
+; java:abstract "false"
+; java:expression-type "void"
+.
+obj:org_springframework_beans_AbstractPropertyAccessor_isExtractOldValueForEditor__
+  rdfs:label "isExtractOldValueForEditor"
+; java:codebase "JavaDoc RDFizer"
+; java:word "Editor"
+; java:word "For"
+; java:word "Value"
+; java:word "Old"
+; java:word "Extract"
+; java:word "is"
+; rdf:type java:Method
+; java:containing-class obj:org_springframework_beans_AbstractPropertyAccessor
+; java:containing-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework_beans
+; java:ancestor-package obj:org_springframework
+; java:ancestor-package obj:org
+; java:modifier "public"
+; java:synthetic "false"
+; java:native "false"
+; java:synchronized "false"
+; java:abstract "false"
+; java:expression-type "boolean"
+.
+obj:java_lang_Class
+  rdfs:label "Class"
+; rdf:type java:Class
+; java:containing-package obj:java_lang
+; java:ancestor-package obj:java_lang
+; java:ancestor-package obj:java
+.
+obj:java_lang_Throwable
+  rdfs:label "Throwable"
+; rdf:type java:Class
+; java:containing-package obj:java_lang
+; java:ancestor-package obj:java_lang
+; java:ancestor-package obj:java
+.
+obj:java_lang_String
+  rdfs:label "String"
+; rdf:type java:Class
+; java:containing-package obj:java_lang
+; java:ancestor-package obj:java_lang
+; java:ancestor-package obj:java
+.
+obj:java_lang_Object
+  rdfs:label "Object"
+; rdf:type java:Class
+; java:containing-package obj:java_lang
+; java:ancestor-package obj:java_lang
+; java:ancestor-package obj:java
+.
+obj:java_lang
+  rdfs:label "java.lang"
+; rdf:type java:Package
+.
+obj:org_springframework_beans
+  rdfs:label "org.springframework.beans"
+; rdf:type java:Package
+.
+obj:org
+  rdfs:label "org"
+; rdf:type java:Package
+.
+obj:java
+  rdfs:label "java"
+; rdf:type java:Package
+.
+obj:org_springframework
+  rdfs:label "org.springframework"
+; rdf:type java:Package
+.
