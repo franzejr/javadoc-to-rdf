@@ -4,24 +4,15 @@ Implementation from MIT Javadoc RDFizer (http://simile.mit.edu/wiki/Javadoc_RDFi
 
 #How to use
 
-Put your files in a package and change the build.xml in the attribute *dir* puting your java package where the files are in.
+You need to use this script:
 
-<fileset dir="src/org/springframework/beans" defaultexcludes="yes">
-              <include name="**"/>
-</fileset>
+javadoc -sourcepath src -doclet edu.mit.simile.rdfizer.javadoc.RDFizerDoclet -out <yourRDFName>.rdf -docletpath rdf_doclet.jar <your.package.br>
+	
+Example:
 
-##Using ant
+javadoc -sourcepath src -doclet edu.mit.simile.rdfizer.javadoc.RDFizerDoclet -out javadoc.rdf -docletpath rdf_doclet.jar org.springframework.beans
 
-You need ant installed. [Get it from http://ant.apache.org if 
-you don't have it installed.]
-
-Second, run "ant" where the build.xml file is located (alongside this very 
-document). This will generate a jar file called "rdf_doclet.jar" and then
-use it as a doclet to generate an RDF javadoc of the doclet source code in
-the './javadoc' folder.
-
-Look into the build.xml file on how to use the doclet on your own ant
-build scripts.
+So, you must to put the rdf_doclet.jar in your directory and set the package's name you want to use.
 
 ##Fork from RDFizer
 
